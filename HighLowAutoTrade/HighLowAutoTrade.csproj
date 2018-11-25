@@ -47,5 +47,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HighLowAutoTradeCore\HighLowAutoTradeCore.csproj">
+      <Project>{ee795e5e-d06f-47c4-b781-7772455b3f7a}</Project>
+      <Name>HighLowAutoTradeCore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
